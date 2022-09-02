@@ -2,6 +2,27 @@ main {
     display: flex;
     margin-left: 80px;
     margin-bottom: 50px;
+    margin-top: 100px;
+    margin-right: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+.mensaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+    width: 330px;
+    height: 310px;
 }
 
 body {
@@ -18,20 +39,27 @@ body {
     margin-left: 90px;
     background-image: url(./assets/img/Muñeco.png);
     background-repeat: no-repeat;
-    background-position: 18px;
-    background-size: 300px;
+    background-position: center;
+    /* background-size: 300px; */
+    background-size: cover;
+    /* max-width: 400px;
+    max-height: 800px; */
 }
 
 .copiar {
     position: relative;
     margin-top: 20px;
-    margin-left: 205px;
+    margin-left: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .botones {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .encriptar {
